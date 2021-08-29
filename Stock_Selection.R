@@ -138,10 +138,6 @@ write_xlsx(mid_cap,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\mid_cap.xlsx")
 write_xlsx(small_cap,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\small_cap.xlsx")
 
 
-
-
-
-
 library(ggplot2)
 ggplot(Output, aes(y = PE18_20, x = Name), color="steelblue") + geom_point()
 
