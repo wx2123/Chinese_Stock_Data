@@ -16,7 +16,7 @@ urlfile="http://bit.ly/389zjAb"
 #urlfile="https://raw.githubusercontent.com/wx2123/R/master/mytest.csv"
 urlfile= "https://raw.githubusercontent.com/wx2123/Chinese_Stock_Data/master/value_temp_190602-20210828.csv"
 
-mydata<-read_csv(url(urlfile))
+mydata<-read_csv(url(urlfile), encoding = "UTF-8")
 head(mydata)
 
 # Method 3
