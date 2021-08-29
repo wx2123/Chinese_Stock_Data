@@ -1,5 +1,8 @@
 # Read data from Github or bit.ly
 
+# Clean all objects from the current workspace (R memory) 
+rm(list=ls())
+
 # Method 1
 library(httr)
 df<-read.csv("http://bit.ly/389zjAb")
