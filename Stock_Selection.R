@@ -44,7 +44,7 @@ head(All_stock)
 
 # ?????￪ʼ???????ݣ?
 library(readxl)
-hs_stock <- read.csv("D:/0_0 Careers/2020/2004_Value_Stocks/value_temp_190602-20210828.csv")
+hs_stock <- read.csv("D:/0_0 Careers/2020/2004_Value_Stocks/Chinese_Stock_Data/value_temp_190602-20210828.csv")
 
 #hs_stock <- mydata
 
@@ -63,6 +63,11 @@ hs_stock_2 <- hs_stock %>%
           PB != "#VALUE!") 
 
 hs_stock_2 <- hs_stock_2 %>%
+  mutate(Mkt_value2 = as.numeric(Mkt_value))
+
+#summary(hs_stock_2$Mkt_value)
+
+hs_stock_2 <- hs_stock_2 %>%
   mutate( List_year= lubridate::year(as.Date(List_date)),
           Mkt_Cap  = as.numeric(Mkt_value) / 100000000
           )
@@ -75,7 +80,7 @@ hs_stock_2$PE18_20 <- as.numeric(hs_stock_2$PE18_20)
 
 
 
-# ɸѡ???̹?
+# Large Cap
 Value_Stocks <-  hs_stock_2 %>%
   filter(
       Mkt_Cap   >  500  &
@@ -86,7 +91,7 @@ Value_Stocks <-  hs_stock_2 %>%
       PB        <  1.5  & 
       PE18_20   <  15 )
 
-# ɸѡ???̹?
+# Mid Cap
 Value_Stocks2 <-  hs_stock_2 %>%
   filter(
     Mkt_Cap>200 & Mkt_Cap < 500 &
@@ -97,7 +102,7 @@ Value_Stocks2 <-  hs_stock_2 %>%
     PB<1.5 & 
     PE18_20 < 15 )
 
-# ɸѡС?̹?
+# Small Cap
 Value_Stocks3 <-  hs_stock_2 %>%
   filter(
     Mkt_Cap>100 & Mkt_Cap < 200 &
