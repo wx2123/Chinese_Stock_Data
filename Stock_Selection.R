@@ -9,10 +9,8 @@ df<-read.csv("http://bit.ly/389zjAb")
 head(df)
 
 # Method 2
-library (readr)
-
-urlfile="http://bit.ly/389zjAb"
-
+library (tidyverse)
+#urlfile="http://bit.ly/389zjAb"
 #urlfile="https://raw.githubusercontent.com/wx2123/R/master/mytest.csv"
 urlfile= "https://raw.githubusercontent.com/wx2123/Chinese_Stock_Data/master/value_temp_190602-20210828.csv"
 
@@ -133,10 +131,11 @@ large_cap2 <- large_cap %>%
 #install.packages('writexl')
 
 library("writexl")
-write_xlsx(large_cap2,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\large_cap.xlsx")
-write_xlsx(mid_cap,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\mid_cap.xlsx")
-write_xlsx(small_cap,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\small_cap.xlsx")
+write_xlsx(large_cap2,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\2109large_cap.xlsx")
+write_xlsx(mid_cap,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\2109mid_cap.xlsx")
+write_xlsx(small_cap,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\2109small_cap.xlsx")
 
+#D:\0_0 Careers\2020\2004_Value_Stocks\Chinese_Stock_Data
 
 library(ggplot2)
 ggplot(Output, aes(y = PE18_20, x = Name), color="steelblue") + geom_point()
