@@ -42,7 +42,7 @@ head(All_stock)
 
 # ?????￪ʼ???????ݣ?
 library(readxl)
-hs_stock <- read.csv("D:/0_0 Careers/2020/2004_Value_Stocks/Chinese_Stock_Data/value_temp_190602-20210828.csv")
+hs_stock <- read.csv("D:/0_0 Careers/2020/2004_Value_Stocks/Chinese_Stock_Data/value_temp_190602-20210909.csv")
 
 #hs_stock <- mydata
 
