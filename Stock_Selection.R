@@ -40,18 +40,19 @@ head(All_stock)
 # Read from csv
 #install.packages("readxl")
 
-# ?????￪ʼ???????ݣ?
+# import data
 library(readxl)
-hs_stock <- read.csv("D:/0_0 Careers/2020/2004_Value_Stocks/Chinese_Stock_Data/value_temp_190602-20210909.csv")
+hs_stock <- read.csv("D:/0_0 Careers/2020/2004_Value_Stocks/Chinese_Stock_Data/value_temp_190602-20211002c.csv")
+
 
 #hs_stock <- mydata
-
 names(hs_stock)
 dim(hs_stock)
 head(hs_stock)
 tail(hs_stock)
 anyNA(hs_stock)
 str(hs_stock)
+
 
 #install.packages("tidyverse")
 library(dplyr)
@@ -131,9 +132,9 @@ large_cap2 <- large_cap %>%
 #install.packages('writexl')
 
 library("writexl")
-write_xlsx(large_cap2,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\2109large_cap.xlsx")
-write_xlsx(mid_cap,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\2109mid_cap.xlsx")
-write_xlsx(small_cap,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\2109small_cap.xlsx")
+write_xlsx(large_cap2,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\2110large_cap.xlsx")
+write_xlsx(mid_cap,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\2110mid_cap.xlsx")
+write_xlsx(small_cap,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\2110small_cap.xlsx")
 
 #D:\0_0 Careers\2020\2004_Value_Stocks\Chinese_Stock_Data
 
