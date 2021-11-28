@@ -40,9 +40,12 @@ head(All_stock)
 # Read from csv
 #install.packages("readxl")
 
+# Clean all objects from the current workspace (R memory) 
+rm(list=ls())
+
 # import data
 library(readxl)
-hs_stock <- read.csv("D:/0_0 Careers/2020/2004_Value_Stocks/Chinese_Stock_Data/value_temp_190602-20211002c.csv")
+hs_stock <- read.csv("D:/0_0 Careers/2020/2004_Value_Stocks/Chinese_Stock_Data/value_temp_190602-20211127.csv")
 
 
 #hs_stock <- mydata
@@ -132,9 +135,9 @@ large_cap2 <- large_cap %>%
 #install.packages('writexl')
 
 library("writexl")
-write_xlsx(large_cap2,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\2110large_cap.xlsx")
-write_xlsx(mid_cap,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\2110mid_cap.xlsx")
-write_xlsx(small_cap,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\2110small_cap.xlsx")
+write_xlsx(large_cap2,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\2111large_cap.xlsx")
+write_xlsx(mid_cap,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\2111mid_cap.xlsx")
+write_xlsx(small_cap,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\2111small_cap.xlsx")
 
 #D:\0_0 Careers\2020\2004_Value_Stocks\Chinese_Stock_Data
 
