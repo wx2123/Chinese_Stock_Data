@@ -1,41 +1,3 @@
-# Read data from Github or bit.ly
-
-# Clean all objects from the current workspace (R memory) 
-rm(list=ls())
-
-# Method 1
-library(httr)
-df<-read.csv("http://bit.ly/389zjAb")
-head(df)
-
-# Method 2
-library (tidyverse)
-#urlfile="http://bit.ly/389zjAb"
-#urlfile="https://raw.githubusercontent.com/wx2123/R/master/mytest.csv"
-urlfile= "https://raw.githubusercontent.com/wx2123/Chinese_Stock_Data/master/value_temp_190602-20210828.csv"
-
-mydata<-read_csv(url(urlfile), encoding = "UTF-8")
-head(mydata)
-
-# Method 3
-#install.packages("RCurl")
-library(RCurl)
-x <- getURL("https://raw.githubusercontent.com/wx2123/R/master/mytest.csv")
-y <- read.csv(text = x)
-
-
-library(httr)
-All_stock22<-read.csv("https://raw.githubusercontent.com/wx2123/R/master/value_temp_190602-20200331v2.csv", as.is=T)
-head(All_stock)
-
-
-
-
-
-
-
-
-
 
 # Read from csv
 #install.packages("readxl")
@@ -132,6 +94,7 @@ small_cap<- Value_Stocks3 %>%
 large_cap2 <- large_cap %>%
   arrange(Mkt_Cap)
 
+# Save to Excel file -----------------------------------------------------
 #install.packages('writexl')
 
 library("writexl")
@@ -142,7 +105,38 @@ write_xlsx(small_cap ,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_D
 
 
 
-#D:\0_0 Careers\2020\2004_Value_Stocks\Chinese_Stock_Data
+
+# Read data from Github or bit.ly
+
+# Clean all objects from the current workspace (R memory) 
+rm(list=ls())
+
+# Method 1
+library(httr)
+df<-read.csv("http://bit.ly/389zjAb")
+head(df)
+
+# Method 2
+library (tidyverse)
+#urlfile="http://bit.ly/389zjAb"
+#urlfile="https://raw.githubusercontent.com/wx2123/R/master/mytest.csv"
+urlfile= "https://raw.githubusercontent.com/wx2123/Chinese_Stock_Data/master/value_temp_190602-20210828.csv"
+
+mydata<-read_csv(url(urlfile), encoding = "UTF-8")
+head(mydata)
+
+# Method 3
+#install.packages("RCurl")
+library(RCurl)
+x <- getURL("https://raw.githubusercontent.com/wx2123/R/master/mytest.csv")
+y <- read.csv(text = x)
+
+
+library(httr)
+All_stock22<-read.csv("https://raw.githubusercontent.com/wx2123/R/master/value_temp_190602-20200331v2.csv", as.is=T)
+head(All_stock)
+
+
 
 library(ggplot2)
 ggplot(Output, aes(y = PE18_20, x = Name), color="steelblue") + geom_point()
