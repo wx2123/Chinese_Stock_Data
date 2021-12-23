@@ -10,6 +10,12 @@ rm(list=ls())
 library(readxl)
 hs_stock <- read.csv("D:/0_0 Careers/2020/2004_Value_Stocks/Chinese_Stock_Data/value_temp_190602_2021_1211.csv")
 
+# hs_stock <- read.csv("D:/0_0 Careers/2020/2004_Value_Stocks/Chinese_Stock_Data/value_temp_190602_2021_1211.csv", encoding = "utf-8")
+# 
+# Encoding(hs_stock) <- "UTF-8"
+
+# hs_stock_3 <- hs_stock %>%
+#   mutate_if(is.character, ~`Encoding<-`(., "GB2312"))
 
 #hs_stock <- mydata
 names(hs_stock)
@@ -51,7 +57,7 @@ Value_Stocks <-  hs_stock_2 %>%
       Mkt_Cap   >  500  &
       List_year <  2014 & 
       Profit    == "1"  & 
-      # Div       == "æ˜¯" & 
+      # Div       == "æ˜?" & 
       Growth    >  0.33 & 
       PB        <  1.5  & 
       PE18_20   <  15 )
@@ -62,7 +68,7 @@ Value_Stocks2 <-  hs_stock_2 %>%
     Mkt_Cap>200 & Mkt_Cap < 500 &
     List_year < 2014 & 
     Profit=="1" & 
-    # Div=="æ˜¯" & 
+    # Div=="æ˜?" & 
     Growth > 0.33 & 
     PB<1.5 & 
     PE18_20 < 15 )
@@ -73,7 +79,7 @@ Value_Stocks3 <-  hs_stock_2 %>%
     Mkt_Cap>100 & Mkt_Cap < 200 &
       List_year < 2014 & 
       Profit=="1" & 
-      # Div=="æ˜¯" & 
+      # Div=="æ˜?" & 
       Growth > 0.33 & 
       PB<1.5 & 
       PE18_20 < 15 )
