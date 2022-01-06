@@ -4,26 +4,21 @@
 
 # Clean all objects from the current workspace (R memory) 
 rm(list=ls())
+Sys.setlocale(category = "LC_ALL", locale = "Chinese") # 将本地语言默认为中文
+# https://www.jianshu.com/p/486c6b98f7cb
 
 # import data
 #install.packages("readxl")
 library(readxl)
 hs_stock <- read.csv("D:/0_0 Careers/2020/2004_Value_Stocks/Chinese_Stock_Data/value_temp_190602_2021_1211.csv")
 
-# hs_stock <- read.csv("D:/0_0 Careers/2020/2004_Value_Stocks/Chinese_Stock_Data/value_temp_190602_2021_1211.csv", encoding = "utf-8")
-# 
-# Encoding(hs_stock) <- "UTF-8"
 
-# hs_stock_3 <- hs_stock %>%
-#   mutate_if(is.character, ~`Encoding<-`(., "GB2312"))
-
-#hs_stock <- mydata
-names(hs_stock)
-dim(hs_stock)
-head(hs_stock)
-tail(hs_stock)
-anyNA(hs_stock)
-str(hs_stock)
+# names(hs_stock)
+# dim(hs_stock)
+# head(hs_stock)
+# tail(hs_stock)
+# anyNA(hs_stock)
+# str(hs_stock)
 
 
 #install.packages("tidyverse")
@@ -57,7 +52,7 @@ Value_Stocks <-  hs_stock_2 %>%
       Mkt_Cap   >  500  &
       List_year <  2014 & 
       Profit    == "1"  & 
-      # Div       == "�?" & 
+      # Div       == "???" & 
       Growth    >  0.33 & 
       PB        <  1.5  & 
       PE18_20   <  15 )
@@ -68,7 +63,7 @@ Value_Stocks2 <-  hs_stock_2 %>%
     Mkt_Cap>200 & Mkt_Cap < 500 &
     List_year < 2014 & 
     Profit=="1" & 
-    # Div=="�?" & 
+    # Div=="???" & 
     Growth > 0.33 & 
     PB<1.5 & 
     PE18_20 < 15 )
@@ -79,7 +74,7 @@ Value_Stocks3 <-  hs_stock_2 %>%
     Mkt_Cap>100 & Mkt_Cap < 200 &
       List_year < 2014 & 
       Profit=="1" & 
-      # Div=="�?" & 
+      # Div=="???" & 
       Growth > 0.33 & 
       PB<1.5 & 
       PE18_20 < 15 )
