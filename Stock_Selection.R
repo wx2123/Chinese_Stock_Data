@@ -10,7 +10,7 @@ Sys.setlocale(category = "LC_ALL", locale = "Chinese") # 将本地语言默认�
 # import data
 #install.packages("readxl")
 library(readxl)
-hs_stock <- read.csv("D:/0_0 Careers/2020/2004_Value_Stocks/Chinese_Stock_Data/value_temp_190602_2021_1211.csv")
+hs_stock <- read.csv("D:/0_0 Careers/2020/2004_Value_Stocks/Chinese_Stock_Data/value_temp_190602_2022_0114.csv")
 
 
 # names(hs_stock)
@@ -97,12 +97,12 @@ large_cap2 <- large_cap %>%
   arrange(Mkt_Cap)
 
 # Save to Excel file -----------------------------------------------------
-#install.packages('writexl')
+install.packages('writexl')
 
 library("writexl")
-write_xlsx(large_cap2,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\2112large_cap.xlsx")
-write_xlsx(mid_cap   ,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\2112mid_cap.xlsx")
-write_xlsx(small_cap ,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\2112small_cap.xlsx")
+write_xlsx(large_cap2,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\220large_cap.xlsx")
+write_xlsx(mid_cap   ,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\2201mid_cap.xlsx")
+write_xlsx(small_cap ,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\22201small_cap.xlsx")
 
 
 
