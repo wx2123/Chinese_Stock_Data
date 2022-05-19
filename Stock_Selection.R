@@ -10,7 +10,7 @@ Sys.setlocale(category = "LC_ALL", locale = "Chinese") # 将本地语言默认�
 # import data
 #install.packages("readxl")
 library(readxl)
-hs_stock <- read.csv("D:/0_0 Careers/2020/2004_Value_Stocks/Chinese_Stock_Data/value_temp_190602_2022_0114.csv")
+hs_stock <- read.csv("D:/0_0 Careers/2020/2004_Value_Stocks/Chinese_Stock_Data/value_temp_190602_2022_0430.csv")
 
 
 # names(hs_stock)
@@ -21,7 +21,7 @@ hs_stock <- read.csv("D:/0_0 Careers/2020/2004_Value_Stocks/Chinese_Stock_Data/v
 # str(hs_stock)
 
 
-#install.packages("tidyverse")
+#install.packages("guf")
 library(dplyr)
 hs_stock_2 <- hs_stock %>%
   filter( Mkt_value !="Code Error",
@@ -33,10 +33,15 @@ hs_stock_2 <- hs_stock_2 %>%
 
 #summary(hs_stock_2$Mkt_value)
 
+library(stringr)
 hs_stock_2 <- hs_stock_2 %>%
-  mutate( List_year= lubridate::year(as.Date(List_date)),
+  mutate( 
+          #List_year = lubridate::year(as.Date(List_date)),
+          List_year = as.numeric(str_sub(List_date,-4)),
           Mkt_Cap  = as.numeric(Mkt_value) / 100000000
           )
+
+#lubridate::year(as.Date(1/20/1990))
 
 #Mkt_Cap  =  as.numeric(Mkt_value),
 
@@ -97,12 +102,12 @@ large_cap2 <- large_cap %>%
   arrange(Mkt_Cap)
 
 # Save to Excel file -----------------------------------------------------
-install.packages('writexl')
+#install.packages('writexl')
 
 library("writexl")
-write_xlsx(large_cap2,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\220large_cap.xlsx")
-write_xlsx(mid_cap   ,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\2201mid_cap.xlsx")
-write_xlsx(small_cap ,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\22201small_cap.xlsx")
+write_xlsx(large_cap2,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\220430_large_cap.xlsx")
+write_xlsx(mid_cap   ,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\2204301_mid_cap.xlsx")
+write_xlsx(small_cap ,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\220430_small_cap.xlsx")
 
 
 
