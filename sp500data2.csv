@@ -1,4 +1,4 @@
-No.,Ticker,Market Cap,Market_Cap,PE,Fwd_PE,PEG,PS,PB,Div,Dividend,ROA,ROE_old,ROE,ROI,Curr R,Quick R,LTDebt_Eq,Debt_Eq,Gross_M,Oper_M,Profit_M,Earnings,Price,Change,Volume
+No.,Ticker,Market Cap,Market_Cap,PE,Fwd_PE,PEG,PS,PB,Div,Dividend,ROA,ROEold,ROE,ROI,Curr R,Quick R,LTDebt_Eq,Debt_Eq,Gross_M,Oper_M,Profit_M,Earnings,Price,Change,Volume
 1,A,36.53B,36.53,31.76,23.3,2.12,5.67,7.31,0.67%,0.67,11.50%,23.70%,23.7,14.70%,2.2,1.6,0.53,0,54.00%,21.60%,18.70%,May 24/a,125.13,2.23%,"2,583,888"
 2,AAL,9.87B,9.87,,7.35,-,0.28,,,0,-3.50%,30.30%,30.3,-1.60%,0.8,0.7,-,-,57.90%,-4.20%,-6.80%,Apr 21/b,16.26,-2.93%,"33,865,621"
 3,AAP,10.99B,10.99,19.09,11.62,1.25,1,3.63,3.30%,3.3,5.20%,18.80%,18.8,15.60%,1.2,0.3,0.33,0,44.80%,7.60%,5.60%,May 23/a,181.89,-7.23%,"1,914,604"
