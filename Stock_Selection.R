@@ -10,7 +10,7 @@ Sys.setlocale(category = "LC_ALL", locale = "Chinese") # 将本地语言默认�
 # import data
 #install.packages("readxl")
 library(readxl)
-hs_stock <- read.csv("D:/0_0 Careers/2020/2004_Value_Stocks/Chinese_Stock_Data/value_temp_190602_2022_0430.csv")
+hs_stock <- read.csv("D:/0_0 Careers/2020/2004_Value_Stocks/Chinese_Stock_Data/value_temp_190602_2022_0527.csv")
 
 
 # names(hs_stock)
@@ -25,6 +25,7 @@ hs_stock <- read.csv("D:/0_0 Careers/2020/2004_Value_Stocks/Chinese_Stock_Data/v
 library(dplyr)
 hs_stock_2 <- hs_stock %>%
   filter( Mkt_value !="Code Error",
+          #Mkt_value !="#DIV/0!",
           PB != "#DIV/0!",
           PB != "#VALUE!") 
 
@@ -36,8 +37,8 @@ hs_stock_2 <- hs_stock_2 %>%
 library(stringr)
 hs_stock_2 <- hs_stock_2 %>%
   mutate( 
-          #List_year = lubridate::year(as.Date(List_date)),
-          List_year = as.numeric(str_sub(List_date,-4)),
+          List_year = lubridate::year(as.Date(List_date)),
+          #List_year = as.numeric(str_sub(List_date,-4)),
           Mkt_Cap  = as.numeric(Mkt_value) / 100000000
           )
 
@@ -105,9 +106,9 @@ large_cap2 <- large_cap %>%
 #install.packages('writexl')
 
 library("writexl")
-write_xlsx(large_cap2,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\220430_large_cap.xlsx")
-write_xlsx(mid_cap   ,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\2204301_mid_cap.xlsx")
-write_xlsx(small_cap ,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\220430_small_cap.xlsx")
+write_xlsx(large_cap2,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\220527_large_cap.xlsx")
+write_xlsx(mid_cap   ,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\220527_mid_cap.xlsx")
+write_xlsx(small_cap ,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\220527_small_cap.xlsx")
 
 
 
