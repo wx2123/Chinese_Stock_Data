@@ -1,4 +1,4 @@
-
+# 
 # Read from csv
 #install.packages("readxl")
 
@@ -10,7 +10,7 @@ Sys.setlocale(category = "LC_ALL", locale = "Chinese") # 将本地语言默认�
 # import data
 #install.packages("readxl")
 library(readxl)
-hs_stock <- read.csv("D:/0_0 Careers/2020/2004_Value_Stocks/Chinese_Stock_Data/value_temp_190602_2022_0527.csv")
+hs_stock <- read.csv("D:/0_0 Careers/2020/2004_Value_Stocks/Chinese_Stock_Data/value_temp_190602_2022_0831.csv")
 
 
 # names(hs_stock)
@@ -50,8 +50,6 @@ hs_stock_2$PB      <- as.numeric(hs_stock_2$PB)
 hs_stock_2$Growth  <- as.numeric(hs_stock_2$Growth)
 hs_stock_2$PE18_20 <- as.numeric(hs_stock_2$PE18_20)
 
-
-
 # Large Cap
 Value_Stocks <-  hs_stock_2 %>%
   filter(
@@ -61,7 +59,7 @@ Value_Stocks <-  hs_stock_2 %>%
       # Div       == "???" & 
       Growth    >  0.33 & 
       PB        <  1.5  & 
-      PE18_20   <  15 )
+      PE18_20   <  15 ) 
 
 # Mid Cap
 Value_Stocks2 <-  hs_stock_2 %>%
@@ -72,7 +70,7 @@ Value_Stocks2 <-  hs_stock_2 %>%
     # Div=="???" & 
     Growth > 0.33 & 
     PB<1.5 & 
-    PE18_20 < 15 )
+    PE18_20 < 15 ) 
 
 # Small Cap
 Value_Stocks3 <-  hs_stock_2 %>%
@@ -83,7 +81,7 @@ Value_Stocks3 <-  hs_stock_2 %>%
       # Div=="???" & 
       Growth > 0.33 & 
       PB<1.5 & 
-      PE18_20 < 15 )
+      PE18_20 < 15 ) 
 
 options(digits = 4)  
 
@@ -94,21 +92,24 @@ Output<- Value_Stocks %>%
   select(Name,PE18_20,PB)
 
 mid_cap<- Value_Stocks2 %>%
-  select(Name, Close, Industry,List_date,Mkt_Cap, Growth, PE18_20,PB)
+  select(Name, Close, Industry,List_date,Mkt_Cap, PE18_20,PB)%>% 
+  rename(PE19_21 = PE18_20)
 
 small_cap<- Value_Stocks3 %>%
-  select(Name, Close, Industry,List_date,Mkt_Cap, Growth, PE18_20,PB)
+  select(Name, Close, Industry,List_date,Mkt_Cap, PE18_20,PB)%>% 
+  rename(PE19_21 = PE18_20)
 
 large_cap2 <- large_cap %>%
-  arrange(Mkt_Cap)
+  arrange(Mkt_Cap)%>% 
+  rename(PE19_21 = PE18_20)
 
 # Save to Excel file -----------------------------------------------------
 #install.packages('writexl')
 
 library("writexl")
-write_xlsx(large_cap2,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\220527_large_cap.xlsx")
-write_xlsx(mid_cap   ,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\220527_mid_cap.xlsx")
-write_xlsx(small_cap ,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\220527_small_cap.xlsx")
+write_xlsx(large_cap2,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\220901_large_cap.xlsx")
+write_xlsx(mid_cap   ,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\220901_mid_cap.xlsx")
+write_xlsx(small_cap ,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\220901_small_cap.xlsx")
 
 
 
