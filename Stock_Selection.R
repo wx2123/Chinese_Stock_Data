@@ -10,8 +10,7 @@ Sys.setlocale(category = "LC_ALL", locale = "Chinese") # 将本地语言默认�
 # import data
 #install.packages("readxl")
 library(readxl)
-hs_stock <- read.csv("D:/0_0 Careers/2020/2004_Value_Stocks/Chinese_Stock_Data/value_temp_190602_2022_0831.csv")
-
+hs_stock <- read.csv("D:/0_0 Careers/2020/2004_Value_Stocks/Chinese_Stock_Data/value_temp_190602-2022_1231.csv")
 
 # names(hs_stock)
 # dim(hs_stock)
@@ -20,14 +19,15 @@ hs_stock <- read.csv("D:/0_0 Careers/2020/2004_Value_Stocks/Chinese_Stock_Data/v
 # anyNA(hs_stock)
 # str(hs_stock)
 
-
 #install.packages("guf")
 library(dplyr)
 hs_stock_2 <- hs_stock %>%
-  filter( Mkt_value !="Code Error",
-          #Mkt_value !="#DIV/0!",
-          PB != "#DIV/0!",
-          PB != "#VALUE!") 
+  filter( Mkt_value != "Code Error",
+          Mkt_value != "#DIV/0!",
+          Mkt_value != "#VALUE!",
+          PB        != "#DIV/0!",
+          Close     != "0",          #剔除停牌股票
+          PB        != "#VALUE!") 
 
 hs_stock_2 <- hs_stock_2 %>%
   mutate(Mkt_value2 = as.numeric(Mkt_value))
@@ -39,11 +39,10 @@ hs_stock_2 <- hs_stock_2 %>%
   mutate( 
           List_year = lubridate::year(as.Date(List_date)),
           #List_year = as.numeric(str_sub(List_date,-4)),
-          Mkt_Cap  = as.numeric(Mkt_value) / 100000000
+          Mkt_Cap  = as.numeric(Mkt_value2) / 100000000
           )
 
 #lubridate::year(as.Date(1/20/1990))
-
 #Mkt_Cap  =  as.numeric(Mkt_value),
 
 hs_stock_2$PB      <- as.numeric(hs_stock_2$PB)
@@ -56,7 +55,7 @@ Value_Stocks <-  hs_stock_2 %>%
       Mkt_Cap   >  500  &
       List_year <  2014 & 
       Profit    == "1"  & 
-      # Div       == "???" & 
+      # Div     == "???" & 
       Growth    >  0.33 & 
       PB        <  1.5  & 
       PE18_20   <  15 ) 
@@ -64,13 +63,13 @@ Value_Stocks <-  hs_stock_2 %>%
 # Mid Cap
 Value_Stocks2 <-  hs_stock_2 %>%
   filter(
-    Mkt_Cap>200 & Mkt_Cap < 500 &
-    List_year < 2014 & 
-    Profit=="1" & 
+    Mkt_Cap   >  200  & Mkt_Cap < 500 &
+    List_year <  2014 & 
+    Profit    == "1"  & 
     # Div=="???" & 
-    Growth > 0.33 & 
-    PB<1.5 & 
-    PE18_20 < 15 ) 
+    Growth    > 0.33  & 
+    PB        < 1.5   & 
+    PE18_20   < 15 ) 
 
 # Small Cap
 Value_Stocks3 <-  hs_stock_2 %>%
@@ -107,9 +106,9 @@ large_cap2 <- large_cap %>%
 #install.packages('writexl')
 
 library("writexl")
-write_xlsx(large_cap2,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\220901_large_cap.xlsx")
-write_xlsx(mid_cap   ,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\220901_mid_cap.xlsx")
-write_xlsx(small_cap ,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\220901_small_cap.xlsx")
+write_xlsx(large_cap2,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\221202_large_cap.xlsx")
+write_xlsx(mid_cap   ,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\221202_mid_cap.xlsx")
+write_xlsx(small_cap ,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\221202_small_cap.xlsx")
 
 
 
