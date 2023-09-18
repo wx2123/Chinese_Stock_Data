@@ -1,4 +1,8 @@
-# 
+
+# A股价值投资选股
+# 2023/6/17
+
+
 # Read from csv
 #install.packages("readxl")
 
@@ -9,8 +13,12 @@ Sys.setlocale(category = "LC_ALL", locale = "Chinese") # 将本地语言默认�
 
 # import data
 #install.packages("readxl")
+
 library(readxl)
-hs_stock <- read.csv("D:/0_0 Careers/2020/2004_Value_Stocks/Chinese_Stock_Data/value_temp_190602-2022_1231.csv")
+hs_stock <- read.csv(
+  "D:/0_0 Careers/2020/2004_Value_Stocks/Chinese_Stock_Data/value_temp_190602-2023_0902.csv")
+
+
 
 # names(hs_stock)
 # dim(hs_stock)
@@ -47,7 +55,7 @@ hs_stock_2 <- hs_stock_2 %>%
 
 hs_stock_2$PB      <- as.numeric(hs_stock_2$PB)
 hs_stock_2$Growth  <- as.numeric(hs_stock_2$Growth)
-hs_stock_2$PE18_20 <- as.numeric(hs_stock_2$PE18_20)
+hs_stock_2$PE20_22 <- as.numeric(hs_stock_2$PE20_22)
 
 # Large Cap
 Value_Stocks <-  hs_stock_2 %>%
@@ -58,7 +66,7 @@ Value_Stocks <-  hs_stock_2 %>%
       # Div     == "???" & 
       Growth    >  0.33 & 
       PB        <  1.5  & 
-      PE18_20   <  15 ) 
+      PE20_22   <  15 ) 
 
 # Mid Cap
 Value_Stocks2 <-  hs_stock_2 %>%
@@ -69,7 +77,7 @@ Value_Stocks2 <-  hs_stock_2 %>%
     # Div=="???" & 
     Growth    > 0.33  & 
     PB        < 1.5   & 
-    PE18_20   < 15 ) 
+    PE20_22   < 15 ) 
 
 # Small Cap
 Value_Stocks3 <-  hs_stock_2 %>%
@@ -80,35 +88,37 @@ Value_Stocks3 <-  hs_stock_2 %>%
       # Div=="???" & 
       Growth > 0.33 & 
       PB<1.5 & 
-      PE18_20 < 15 ) 
+      PE20_22 < 15 ) 
 
 options(digits = 4)  
 
 large_cap<- Value_Stocks %>%
-  select(Code, Name, Close, Industry,List_date,Mkt_Cap,PE18_20,PB)
+  select(Code, Name, Close, Industry,List_date,Mkt_Cap,PE20_22,PB, YTDchg)
 
 Output<- Value_Stocks %>%
-  select(Name,PE18_20,PB)
+  select(Name,PE20_22,PB)
 
 mid_cap<- Value_Stocks2 %>%
-  select(Name, Close, Industry,List_date,Mkt_Cap, PE18_20,PB)%>% 
-  rename(PE19_21 = PE18_20)
+  select(Name, Close, Industry,List_date,Mkt_Cap, PE20_22,PB, YTDchg)%>% 
+  rename(PE19_21 = PE20_22)
 
 small_cap<- Value_Stocks3 %>%
-  select(Name, Close, Industry,List_date,Mkt_Cap, PE18_20,PB)%>% 
-  rename(PE19_21 = PE18_20)
+  select(Name, Close, Industry,List_date,Mkt_Cap, PE20_22,PB, YTDchg)%>% 
+  rename(PE19_21 = PE20_22)
 
 large_cap2 <- large_cap %>%
   arrange(Mkt_Cap)%>% 
-  rename(PE19_21 = PE18_20)
+  rename(PE19_21 = PE20_22)
 
 # Save to Excel file -----------------------------------------------------
 #install.packages('writexl')
 
 library("writexl")
-write_xlsx(large_cap2,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\221202_large_cap.xlsx")
-write_xlsx(mid_cap   ,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\221202_mid_cap.xlsx")
-write_xlsx(small_cap ,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\221202_small_cap.xlsx")
+write_xlsx(large_cap2,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\230902_large_cap.xlsx")
+write_xlsx(mid_cap   ,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\230902_mid_cap.xlsx")
+write_xlsx(small_cap ,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\230902_small_cap.xlsx")
+
+
 
 
 
@@ -147,9 +157,9 @@ head(All_stock)
 
 
 library(ggplot2)
-ggplot(Output, aes(y = PE18_20, x = Name), color="steelblue") + geom_point()
+ggplot(Output, aes(y = PE20_22, x = Name), color="steelblue") + geom_point()
 
-ggplot(Output, aes(y = PE18_20, x = Industry)) s
+ggplot(Output, aes(y = PE20_22, x = Industry)) s
       + geom_boxplot(fill="yellow",color="red")
 
 
