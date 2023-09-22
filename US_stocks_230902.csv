@@ -1,0 +1,71 @@
+No.,Ticker,Company,Sector,Industry,Country,Market Cap,P/E,Price,Change,Volume
+1,BBD,Banco Bradesco S.A.,Financial,Banks - Regional,Brazil,30.27B,8.86,3.02,1.13%,"12,348,171"
+2,BBVA,"Banco Bilbao Vizcaya Argentaria, S.A.",Financial,Banks - Diversified,Spain,46.99B,6.2,7.81,-1.64%,"2,058,788"
+3,BCH,Banco de Chile,Financial,Banks - Regional,Chile,11.03B,7.27,21.71,-0.50%,"34,439"
+4,BMO,Bank of Montreal,Financial,Banks - Diversified,Canada,61.74B,11.54,86.07,-0.02%,"601,652"
+5,BNS,The Bank of Nova Scotia,Financial,Banks - Diversified,Canada,56.57B,10.16,48.14,1.48%,"1,657,289"
+6,BTI,British American Tobacco p.l.c.,Consumer Defensive,Tobacco,United Kingdom,74.59B,6.67,32.94,-0.78%,"3,602,751"
+7,C,Citigroup Inc.,Financial,Banks - Diversified,USA,79.51B,6.59,41.59,0.73%,"12,395,264"
+8,CM,Canadian Imperial Bank of Commerce,Financial,Banks - Diversified,Canada,35.91B,10.36,39.82,0.53%,"2,055,760"
+9,CTRA,Coterra Energy Inc.,Energy,Oil & Gas E&P,USA,21.28B,7.17,28.46,0.96%,"4,282,843"
+10,EC,Ecopetrol S.A.,Energy,Oil & Gas Integrated,Colombia,23.71B,3.79,11.79,0.94%,"1,413,898"
+11,EQNR,Equinor ASA,Energy,Oil & Gas Integrated,Norway,93.04B,4.12,31.6,3.37%,"2,745,114"
+12,ET,Energy Transfer LP,Energy,Oil & Gas Midstream,USA,42.34B,11.31,13.62,1.11%,"8,966,533"
+13,FTS,Fortis Inc.,Utilities,Utilities - Regulated Electric,Canada,25.78B,13.27,39.25,0.13%,"580,278"
+14,HBAN,Huntington Bancshares Incorporated,Financial,Banks - Regional,USA,16.06B,7.24,11.22,1.17%,"9,462,288"
+15,IP,International Paper Company,Consumer Cyclical,Packaging & Containers,USA,12.08B,9.95,35.19,0.77%,"2,211,077"
+16,KEY,KeyCorp,Financial,Banks - Regional,USA,10.60B,7.73,11.56,2.03%,"11,289,766"
+17,MFC,Manulife Financial Corporation,Financial,Insurance - Life,Canada,33.82B,8.79,18.63,0.81%,"5,229,113"
+18,NGG,National Grid plc,Utilities,Utilities - Regulated Electric,United Kingdom,46.44B,13.45,62.9,-0.49%,"362,102"
+19,NWG,NatWest Group plc,Financial,Banks - Regional,United Kingdom,26.12B,5.24,5.93,0.68%,"600,208"
+20,PAA,"Plains All American Pipeline, L.P.",Energy,Oil & Gas Midstream,USA,10.65B,9.54,15.45,1.31%,"2,722,760"
+21,PBR,Petroleo Brasileiro S.A. - Petrobras,Energy,Oil & Gas Integrated,Brazil,88.00B,2.99,14.49,3.13%,"24,290,234"
+22,PNC,"The PNC Financial Services Group, Inc.",Financial,Banks - Regional,USA,48.08B,8.39,122.22,1.23%,"1,235,773"
+23,RF,Regions Financial Corporation,Financial,Banks - Regional,USA,17.21B,7.91,18.56,1.20%,"7,725,380"
+24,SMFG,"Sumitomo Mitsui Financial Group, Inc.",Financial,Banks - Diversified,Japan,61.11B,11.44,9.28,1.98%,"928,411"
+25,TEF,"Telefonica, S.A.",Communication Services,Telecom Services,Spain,24.02B,14.19,4.1,0.24%,"2,051,873"
+26,TFC,Truist Financial Corporation,Financial,Banks - Regional,USA,40.69B,7.14,30.9,1.15%,"7,950,719"
+27,UMC,United Microelectronics Corporation,Technology,Semiconductors,Taiwan,17.88B,7.49,7.24,0.98%,"4,680,526"
+28,USB,U.S. Bancorp,Financial,Banks - Regional,USA,56.88B,10.3,37.07,1.48%,"13,755,510"
+29,VALE,Vale S.A.,Basic Materials,Other Industrial Metals & Mining,Brazil,59.62B,5.5,13.99,6.23%,"34,522,693"
+30,VZ,Verizon Communications Inc.,Communication Services,Telecom Services,USA,147.06B,6.97,34.86,-0.34%,"14,743,095"
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+No.,Ticker,Company,Sector,Industry,Country,Market Cap,P/E,Price,Change,Volume
+1,BBD,Banco Bradesco S.A.,Financial,Banks - Regional,Brazil,30.27B,8.86,3.02,0.0113,12348171
+2,BBVA,"Banco Bilbao Vizcaya Argentaria, S.A.",Financial,Banks - Diversified,Spain,46.99B,6.2,7.81,-0.0164,2058788
+3,BCH,Banco de Chile,Financial,Banks - Regional,Chile,11.03B,7.27,21.71,-0.005,34439
+4,BMO,Bank of Montreal,Financial,Banks - Diversified,Canada,61.74B,11.54,86.07,-0.0002,601652
+5,BNS,The Bank of Nova Scotia,Financial,Banks - Diversified,Canada,56.57B,10.16,48.14,0.0148,1657289
+6,BTI,British American Tobacco p.l.c.,Consumer Defensive,Tobacco,United Kingdom,74.59B,6.67,32.94,-0.0078,3602751
+7,C,Citigroup Inc.,Financial,Banks - Diversified,USA,79.51B,6.59,41.59,0.0073,12395264
+8,CM,Canadian Imperial Bank of Commerce,Financial,Banks - Diversified,Canada,35.91B,10.36,39.82,0.0053,2055760
+9,CTRA,Coterra Energy Inc.,Energy,Oil & Gas E&P,USA,21.28B,7.17,28.46,0.0096,4282843
+10,EC,Ecopetrol S.A.,Energy,Oil & Gas Integrated,Colombia,23.71B,3.79,11.79,0.0094,1413898
+11,EQNR,Equinor ASA,Energy,Oil & Gas Integrated,Norway,93.04B,4.12,31.6,0.0337,2745114
+12,ET,Energy Transfer LP,Energy,Oil & Gas Midstream,USA,42.34B,11.31,13.62,0.0111,8966533
+13,FTS,Fortis Inc.,Utilities,Utilities - Regulated Electric,Canada,25.78B,13.27,39.25,0.0013,580278
+14,HBAN,Huntington Bancshares Incorporated,Financial,Banks - Regional,USA,16.06B,7.24,11.22,0.0117,9462288
+15,IP,International Paper Company,Consumer Cyclical,Packaging & Containers,USA,12.08B,9.95,35.19,0.0077,2211077
+16,KEY,KeyCorp,Financial,Banks - Regional,USA,10.60B,7.73,11.56,0.0203,11289766
+17,MFC,Manulife Financial Corporation,Financial,Insurance - Life,Canada,33.82B,8.79,18.63,0.0081,5229113
+18,NGG,National Grid plc,Utilities,Utilities - Regulated Electric,United Kingdom,46.44B,13.45,62.9,-0.0049,362102
+19,NWG,NatWest Group plc,Financial,Banks - Regional,United Kingdom,26.12B,5.24,5.93,0.0068,600208
+20,PAA,"Plains All American Pipeline, L.P.",Energy,Oil & Gas Midstream,USA,10.65B,9.54,15.45,0.0131,2722760
+21,PBR,Petroleo Brasileiro S.A. - Petrobras,Energy,Oil & Gas Integrated,Brazil,88.00B,2.99,14.49,0.0313,24290234
+22,PNC,"The PNC Financial Services Group, Inc.",Financial,Banks - Regional,USA,48.08B,8.39,122.22,0.0123,1235773
+23,RF,Regions Financial Corporation,Financial,Banks - Regional,USA,17.21B,7.91,18.56,0.012,7725380
+24,SMFG,"Sumitomo Mitsui Financial Group, Inc.",Financial,Banks - Diversified,Japan,61.11B,11.44,9.28,0.0198,928411
+25,TEF,"Telefonica, S.A.",Communication Services,Telecom Services,Spain,24.02B,14.19,4.1,0.0024,2051873
+26,TFC,Truist Financial Corporation,Financial,Banks - Regional,USA,40.69B,7.14,30.9,0.0115,7950719
+27,UMC,United Microelectronics Corporation,Technology,Semiconductors,Taiwan,17.88B,7.49,7.24,0.0098,4680526
+28,USB,U.S. Bancorp,Financial,Banks - Regional,USA,56.88B,10.3,37.07,0.0148,13755510
+29,VALE,Vale S.A.,Basic Materials,Other Industrial Metals & Mining,Brazil,59.62B,5.5,13.99,0.0623,34522693
+30,VZ,Verizon Communications Inc.,Communication Services,Telecom Services,USA,147.06B,6.97,34.86,-0.0034,14743095
