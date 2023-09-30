@@ -1,0 +1,41 @@
+No.,Ticker,Company,Sector,Industry,Country,Market Cap,P/E,Price,Change,Volume
+1,BAP,Credicorp Ltd,Financial,Banks - Regional,Peru,10.18B,7.54,127.97,-0.0076,207500
+2,BBD,Banco Bradesco S.A. ADR,Financial,Banks - Regional,Brazil,15.14B,9.75,2.85,0.0071,10732559
+3,BBVA,Banco Bilbao Vizcaya Argentaria. ADR,Financial,Banks - Diversified,Spain,48.00B,6.46,8.05,-0.0012,922553
+4,BCH,Banco de Chile ADR,Financial,Banks - Regional,Chile,10.20B,6.85,20.2,-0.0025,79567
+5,BMO,Bank of Montreal,Financial,Banks - Diversified,Canada,61.00B,11.29,84.37,-0.0075,613373
+6,BNS,Bank Of Nova Scotia,Financial,Banks - Diversified,Canada,54.63B,9.65,45.59,-0.0078,2539124
+7,BTI,British American Tobacco Plc ADR,Consumer Defensive,Tobacco,United Kingdom,70.06B,6.77,31.41,0.001,3166242
+8,CM,Canadian Imperial Bank Of Commerce,Financial,Banks - Diversified,Canada,35.44B,10.61,38.61,-0.012,1562469
+9,CNA,CNA Financial Corp.,Financial,Insurance - Property & Casualty,USA,10.66B,11.21,39.35,-0.0091,93948
+10,E,Eni Spa ADR,Energy,Oil & Gas Integrated,Italy,50.27B,5.88,31.92,-0.0169,407818
+11,EC,Ecopetrol SA ADR,Energy,Oil & Gas Integrated,Colombia,23.81B,4.17,11.58,-0.0026,3885556
+12,ERIC,Telefonaktiebolaget L M Ericsson ADR,Technology,Communication Equipment,Sweden,14.91B,14.21,4.86,0.0146,9530350
+13,ET,Energy Transfer LP,Energy,Oil & Gas Midstream,USA,44.10B,11.67,14.03,0.0007,14705737
+14,FITB,Fifth Third Bancorp,Financial,Banks - Regional,USA,17.25B,7.22,25.33,0.012,4031114
+15,HBAN,"Huntington Bancshares, Inc.",Financial,Banks - Regional,USA,15.06B,6.71,10.4,0.0186,12989017
+16,HSBC,HSBC Holdings plc ADR,Financial,Banks - Diversified,United Kingdom,154.82B,6.68,39.46,-0.0055,1362813
+17,IP,International Paper Co.,Consumer Cyclical,Packaging & Containers,USA,12.27B,8.35,35.47,0.0034,2564344
+18,KB,KB Financial Group Inc ADR,Financial,Banks - Regional,South Korea,15.80B,4.78,41.11,-0.008,150938
+19,KEY,Keycorp,Financial,Banks - Regional,USA,10.07B,7.18,10.76,0.0228,15777912
+20,KMI,Kinder Morgan Inc,Energy,Oil & Gas Midstream,USA,36.94B,14.93,16.58,-0.0054,14574107
+21,MFC,Manulife Financial Corp.,Financial,Insurance - Life,Canada,33.43B,8.56,18.28,-0.0103,1982735
+22,NGG,National Grid Plc ADR,Utilities,Utilities - Regulated Electric,United Kingdom,44.72B,4.78,60.63,0.014,390228
+23,NWG,NatWest Group Plc ADR,Financial,Banks - Regional,United Kingdom,25.90B,6.16,5.83,-0.0034,1390242
+24,PAA,Plains All American Pipeline LP,Energy,Oil & Gas Midstream,USA,10.70B,9.46,15.32,-0.0058,4525396
+25,PBA,Pembina Pipeline Corporation,Energy,Oil & Gas Midstream,Canada,16.51B,8.22,30.06,-0.0046,1260613
+26,PBR,Petroleo Brasileiro S.A. Petrobras ADR,Energy,Oil & Gas Integrated,Brazil,55.78B,3.24,14.99,0.0101,16813416
+27,PBR-A,Petroleo Brasileiro S.A. Petrobras ADR,Energy,Oil & Gas Integrated,Brazil,38.40B,2.96,13.71,0.0073,5395275
+28,PFE,Pfizer Inc.,Healthcare,Drug Manufacturers - General,USA,187.28B,8.84,33.17,0.0337,42351885
+29,RF,Regions Financial Corp.,Financial,Banks - Regional,USA,16.14B,7.33,17.2,0.0094,8739616
+30,RIO,Rio Tinto plc ADR,Basic Materials,Other Industrial Metals & Mining,United Kingdom,79.61B,11.79,63.64,-0.0024,3334016
+31,SAN,Banco Santander S.A. ADR,Financial,Banks - Diversified,Spain,59.94B,6.5,3.76,-0.0079,3795018
+32,SHG,Shinhan Financial Group Co. Ltd. ADR,Financial,Banks - Regional,South Korea,13.73B,4.18,26.49,-0.0008,104937
+33,STLA,Stellantis N.V,Consumer Cyclical,Auto Manufacturers,Netherlands,59.30B,2.91,19.13,-0.0073,9223584
+34,TEF,Telefonica S.A ADR,Communication Services,Telecom Services,Spain,23.16B,13.25,4.07,-0.0025,676886
+35,TFC,Truist Financial Corporation,Financial,Banks - Regional,USA,38.11B,6.61,28.61,0.0135,7880261
+36,UMC,United Micro Electronics ADR,Technology,Semiconductors,Taiwan,17.65B,7.04,7.06,-0.0014,4629820
+37,USB,U.S. Bancorp.,Financial,Banks - Regional,USA,50.68B,9.19,33.06,0.0182,10979203
+38,VALE,Vale S.A. ADR,Basic Materials,Other Industrial Metals & Mining,Brazil,58.20B,5.53,13.4,0.0128,13513264
+39,VOD,Vodafone Group plc ADR,Communication Services,Telecom Services,United Kingdom,25.67B,2.13,9.48,-0.0073,5860152
+40,VZ,Verizon Communications Inc,Communication Services,Telecom Services,USA,136.25B,6.48,32.41,-0.0043,19692702
