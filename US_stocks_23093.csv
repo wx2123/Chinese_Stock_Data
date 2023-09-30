@@ -1,0 +1,37 @@
+No.,Ticker,Company,Sector,Industry,Country,Market Cap,P/E,Price,Change,Volume
+1,AB,AllianceBernstein Holding Lp,Financial,Asset Management,USA,3.45B,13.34,30.35,-0.0088,305136
+2,ABR,Arbor Realty Trust Inc.,Real Estate,REIT - Mortgage,USA,2.83B,8.83,15.18,-0.0033,2819741
+3,ARLP,"Alliance Resource Partners, LP",Energy,Thermal Coal,USA,2.86B,4,22.53,-0.0183,499868
+4,BSAC,Banco Santander Chile SA ADR,Financial,Banks - Regional,Chile,8.64B,13.93,18.34,-0.0097,337261
+5,BTG,B2gold Corp,Basic Materials,Gold,Canada,3.74B,10.77,2.89,0.007,7163204
+6,BXMT,Blackstone Mortgage Trust Inc,Real Estate,REIT - Mortgage,USA,3.75B,13.9,21.75,-0.0014,2558433
+7,BXP,"Boston Properties, Inc.",Real Estate,REIT - Office,USA,9.33B,14.07,59.48,0.0047,1384528
+8,CIB,Bancolombia S.A. ADR,Financial,Banks - Regional,Colombia,3.02B,8.55,26.68,0.0133,237289
+9,CIG,Cia Energetica DE Minas Gerais - Cemig ADR,Utilities,Utilities - Diversified,Brazil,3.54B,5.26,2.42,-0.0163,2026316
+10,CIG-C,Cia Energetica DE Minas Gerais - Cemig ADR,Utilities,Utilities - Diversified,Brazil,2.91B,8.58,3.95,-0.0029,38843
+11,CIVI,Civitas Resources Inc,Energy,Oil & Gas E&P,USA,7.58B,6.63,80.87,-0.0175,1388296
+12,CMA,"Comerica, Inc.",Financial,Banks - Regional,USA,5.48B,4.33,41.55,0.0181,1806757
+13,COLB,"Columbia Banking System, Inc.",Financial,Banks - Regional,USA,4.23B,8.99,20.3,0.0341,1086078
+14,FHN,First Horizon Corporation,Financial,Banks - Regional,USA,6.16B,5.83,11.02,0.0027,5200031
+15,FIBK,First Interstate BancSystem Inc.,Financial,Banks - Regional,USA,2.62B,8.87,24.94,0.0146,483054
+16,GGB,Gerdau S.A. ADR,Basic Materials,Steel,Brazil,5.48B,4.54,4.77,-0.0083,7577587
+17,HIW,"Highwoods Properties, Inc.",Real Estate,REIT - Office,USA,2.18B,14.28,20.61,0.0039,983680
+18,HTGC,Hercules Capital Inc,Financial,Asset Management,USA,2.48B,7.4,16.42,-0.0079,823059
+19,ICL,ICL Group Ltd.,Basic Materials,Agricultural Inputs,Israel,7.16B,5.09,5.55,0,537237
+20,ITCL,Banco Itau Chile. ADR,Financial,Banks - Regional,Chile,2.05B,4.15,3.16,-0.0125,1344
+21,IVZ,Invesco Ltd,Financial,Asset Management,USA,6.51B,10.38,14.52,0.0035,4140063
+22,KT,KT Corporation ADR,Communication Services,Telecom Services,South Korea,6.23B,6.89,12.82,-0.0008,1695764
+23,M,Macy's Inc,Consumer Cyclical,Department Stores,USA,3.18B,4.32,11.61,0.0149,11109418
+24,MAIN,Main Street Capital Corporation,Financial,Asset Management,USA,3.35B,9.19,40.63,-0.0022,267496
+25,MDC,"M.D.C. Holdings, Inc.",Consumer Cyclical,Residential Construction,USA,3.07B,7.66,41.23,-0.0143,461059
+26,NYCB,New York Community Bancorp Inc.,Financial,Banks - Regional,USA,8.19B,2.81,11.34,0.0053,7405960
+27,PPBI,"Pacific Premier Bancorp, Inc.",Financial,Banks - Regional,USA,2.09B,7.77,21.76,0.0206,740658
+28,RITM,Rithm Capital Corporation,Real Estate,REIT - Mortgage,USA,4.49B,7.08,9.29,0.0032,2744813
+29,SKM,SK Telecom Co Ltd ADR,Communication Services,Telecom Services,South Korea,8.44B,10.57,21.46,0.0014,410286
+30,SNV,Synovus Financial Corp.,Financial,Banks - Regional,USA,4.06B,5.42,27.8,0.0157,1576461
+31,SR,Spire Inc.,Utilities,Utilities - Regulated Gas,USA,2.98B,13.16,56.58,0.0122,414230
+32,STWD,Starwood Property Trust Inc,Real Estate,REIT - Mortgage,USA,6.05B,11.03,19.35,0.0031,1811833
+33,TX,Ternium S.A. ADR,Basic Materials,Steel,Luxembourg,7.83B,2.09,39.9,-0.0025,174182
+34,UBSI,"United Bankshares, Inc.",Financial,Banks - Regional,USA,3.72B,9.48,27.59,0.0114,680469
+35,VLY,Valley National Bancorp,Financial,Banks - Regional,USA,4.35B,6.95,8.56,0.0118,2349982
+36,WF,Woori Financial Group Inc ADR,Financial,Banks - Regional,South Korea,6.94B,3.12,27.42,-0.004,30737
