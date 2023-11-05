@@ -1,0 +1,67 @@
+No.,Ticker,Company,Sector,Industry,Country,Market Cap,P/E,Price,Change,Volume,Category
+1,BBD,Banco Bradesco S.A. ADR,Financial,Banks - Regional,Brazil,16.09B,10.37,3.03,0.0306,23599839,LargeCap
+2,BBVA,Banco Bilbao Vizcaya Argentaria. ADR,Financial,Banks - Diversified,Spain,49.22B,6.19,8.26,0.016,1006452,LargeCap
+3,BCH,Banco de Chile ADR,Financial,Banks - Regional,Chile,10.86B,7.3,21.51,0.0223,132139,LargeCap
+4,BMO,Bank of Montreal,Financial,Banks - Diversified,USA,57.12B,10.61,80.09,0.0193,655509,LargeCap
+5,BNS,Bank Of Nova Scotia,Financial,Banks - Diversified,Canada,51.88B,9.16,43.3,0.01,1705691,LargeCap
+6,BTI,British American Tobacco Plc ADR,Consumer Defensive,Tobacco,United Kingdom,69.35B,6.7,31.09,0.0124,2619330,LargeCap
+7,CM,Canadian Imperial Bank Of Commerce,Financial,Banks - Diversified,Canada,34.79B,10.42,37.91,0.0142,1363738,LargeCap
+8,CNA,CNA Financial Corp.,Financial,Insurance - Property & Casualty,USA,10.85B,10.04,40.04,-0.0094,151346,LargeCap
+9,E,Eni Spa ADR,Energy,Oil & Gas Integrated,Italy,51.66B,9.89,32.8,-0.0168,217264,LargeCap
+10,EC,Ecopetrol SA ADR,Energy,Oil & Gas Integrated,Colombia,25.41B,4.45,12.36,-0.008,1722439,LargeCap
+11,ET,Energy Transfer LP,Energy,Oil & Gas Midstream,USA,42.96B,12.88,13.66,0.0015,16694569,LargeCap
+12,F,Ford Motor Co.,Consumer Cyclical,Auto Manufacturers,USA,42.27B,6.92,10.56,0.0414,60661442,LargeCap
+13,FITB,Fifth Third Bancorp,Financial,Banks - Regional,USA,18.02B,7.54,26.46,0.0563,9012030,LargeCap
+14,HBAN,"Huntington Bancshares, Inc.",Financial,Banks - Regional,USA,15.38B,7.02,10.62,0.0271,21298970,LargeCap
+15,HSBC,HSBC Holdings plc ADR,Financial,Banks - Diversified,United Kingdom,145.82B,5.45,37.44,0.0113,2245129,LargeCap
+16,KB,KB Financial Group Inc ADR,Financial,Banks - Regional,South Korea,15.60B,4.72,40.59,0.0451,161575,LargeCap
+17,KEY,Keycorp,Financial,Banks - Regional,USA,10.66B,9.24,11.39,0.0364,18199592,LargeCap
+18,MFC,Manulife Financial Corp.,Financial,Insurance - Life,Canada,34.11B,8.73,18.65,0.0175,1773007,LargeCap
+19,NGG,National Grid Plc ADR,Utilities,Utilities - Regulated Electric,United Kingdom,45.82B,4.89,62.12,0.0055,401843,LargeCap
+20,NWG,NatWest Group Plc ADR,Financial,Banks - Regional,United Kingdom,20.84B,4.08,4.69,0.0399,2126923,LargeCap
+21,PAA,Plains All American Pipeline LP,Energy,Oil & Gas Midstream,USA,11.09B,9.76,15.82,-0.0038,6247161,LargeCap
+22,PBR,Petroleo Brasileiro S.A. Petrobras ADR,Energy,Oil & Gas Integrated,Brazil,58.35B,3.39,15.68,0,13851358,LargeCap
+23,PBR-A,Petroleo Brasileiro S.A. Petrobras ADR,Energy,Oil & Gas Integrated,Brazil,40.59B,3.13,14.49,0.0021,4962633,LargeCap
+24,RF,Regions Financial Corp.,Financial,Banks - Regional,USA,14.77B,6.54,15.74,0.0201,12918015,LargeCap
+25,SAN,Banco Santander S.A. ADR,Financial,Banks - Diversified,Spain,60.73B,6.06,3.81,0.0026,3827762,LargeCap
+26,SHG,Shinhan Financial Group Co. Ltd. ADR,Financial,Banks - Regional,South Korea,13.87B,4.25,26.91,0.0302,109494,LargeCap
+27,STLA,Stellantis N.V,Consumer Cyclical,Auto Manufacturers,Netherlands,62.34B,3.06,20.11,0.0255,7232061,LargeCap
+28,TEF,Telefonica S.A ADR,Communication Services,Telecom Services,Spain,22.59B,12.93,3.97,0.0285,963510,LargeCap
+29,TFC,Truist Financial Corporation,Financial,Banks - Regional,USA,41.60B,7.84,31.19,0.0407,12776803,LargeCap
+30,UMC,United Micro Electronics ADR,Technology,Semiconductors,Taiwan,19.30B,9.07,7.72,0.0266,7042946,LargeCap
+31,USB,U.S. Bancorp.,Financial,Banks - Regional,USA,55.26B,10.58,35.49,0.0335,13097347,LargeCap
+32,VALE,Vale S.A. ADR,Basic Materials,Other Industrial Metals & Mining,Brazil,62.52B,6,14.53,0.0028,18723827,LargeCap
+33,VOD,Vodafone Group plc ADR,Communication Services,Telecom Services,United Kingdom,26.40B,2.19,9.75,0.022,5202456,LargeCap
+34,VTRS,Viatris Inc,Healthcare,Drug Manufacturers - Specialty & Generic,USA,11.12B,6.08,9.27,0.0381,7301240,LargeCap
+35,VZ,Verizon Communications Inc,Communication Services,Telecom Services,USA,151.43B,7.26,36.02,0.0033,23305832,LargeCap
+36,WDS,Woodside Energy Group Ltd ADR,Energy,Oil & Gas E&P,Australia,41.72B,6.18,22,-0.009,492099,LargeCap
+1,NYCB,New York Community Bancorp Inc.,Financial,Banks - Regional,USA,7.01B,2.43,9.7,-0.0192,12399995,MidCap
+2,M,Macy's Inc,Consumer Cyclical,Department Stores,USA,3.54B,4.81,12.95,0.0335,11143157,MidCap
+3,FHN,First Horizon Corporation,Financial,Banks - Regional,USA,6.63B,7.1,11.86,0.0376,9868628,MidCap
+4,GGB,Gerdau S.A. ADR,Basic Materials,Steel,Brazil,5.36B,4.45,4.67,0.0174,6857903,MidCap
+5,IVZ,Invesco Ltd,Financial,Asset Management,USA,6.24B,10.65,13.88,0.0251,3865010,MidCap
+6,VLY,Valley National Bancorp,Financial,Banks - Regional,USA,4.35B,7.41,8.57,0.0375,3842213,MidCap
+7,LNC,Lincoln National Corp.,Financial,Insurance - Life,USA,4.17B,10.22,24.56,0.0623,3504327,MidCap
+8,CMA,"Comerica, Inc.",Financial,Banks - Regional,USA,5.81B,4.99,44.08,0.045,2701245,MidCap
+9,COLB,"Columbia Banking System, Inc.",Financial,Banks - Regional,USA,4.54B,10.47,21.76,0.0441,1925248,MidCap
+10,CIG,Cia Energetica DE Minas Gerais - Cemig ADR,Utilities,Utilities - Diversified,Brazil,3.69B,5.47,2.52,0.0161,1852035,MidCap
+11,SNV,Synovus Financial Corp.,Financial,Banks - Regional,USA,4.17B,6.49,28.54,0.0363,1514909,MidCap
+12,HTGC,Hercules Capital Inc,Financial,Asset Management,USA,2.40B,7.15,15.87,-0.0143,1466619,MidCap
+13,OMF,OneMain Holdings Inc,Financial,Credit Services,USA,4.58B,7.06,38.24,0.0003,1244111,MidCap
+14,CIVI,Civitas Resources Inc,Energy,Oil & Gas E&P,USA,7.22B,6.31,76.96,-0.0019,1170395,MidCap
+15,BAP,Credicorp Ltd,Financial,Banks - Regional,Peru,9.67B,7.16,121.57,-0.0539,894573,MidCap
+16,ICL,ICL Group Ltd.,Basic Materials,Agricultural Inputs,Israel,6.43B,4.58,4.99,0.0122,807145,MidCap
+17,BOH,Bank of Hawaii Corp.,Financial,Banks - Regional,USA,2.22B,11.33,55.78,0.0493,801655,MidCap
+18,ARLP,"Alliance Resource Partners, LP",Energy,Thermal Coal,USA,3.05B,4.3,24,0.0131,778178,MidCap
+19,FIBK,First Interstate BancSystem Inc.,Financial,Banks - Regional,USA,2.60B,9.15,24.78,0.0041,758163,MidCap
+20,MDC,"M.D.C. Holdings, Inc.",Consumer Cyclical,Residential Construction,USA,3.21B,8.94,42.99,0.0467,646650,MidCap
+21,MAIN,Main Street Capital Corporation,Financial,Asset Management,USA,3.35B,8.25,40.68,0.0122,585528,MidCap
+22,BSAC,Banco Santander Chile SA ADR,Financial,Banks - Regional,Chile,8.72B,14.05,18.5,0.0266,579213,MidCap
+23,KT,KT Corporation ADR,Communication Services,Telecom Services,South Korea,6.19B,6.85,12.74,0.0159,572660,MidCap
+24,PPBI,"Pacific Premier Bancorp, Inc.",Financial,Banks - Regional,USA,2.05B,8.51,21.34,0.0415,495956,MidCap
+25,AB,AllianceBernstein Holding Lp,Financial,Asset Management,USA,3.18B,12.8,28.4,-0.017,392527,MidCap
+26,SKM,SK Telecom Co Ltd ADR,Communication Services,Telecom Services,South Korea,8.38B,10.49,21.3,0.0285,331761,MidCap
+27,BCC,Boise Cascade Co,Basic Materials,Building Materials,USA,4.13B,8.27,104.41,0.0319,309336,MidCap
+28,CIB,Bancolombia S.A. ADR,Financial,Banks - Regional,Colombia,3.07B,8.7,27.12,0.0211,191258,MidCap
+29,CIG-C,Cia Energetica DE Minas Gerais - Cemig ADR,Utilities,Utilities - Diversified,Brazil,2.60B,7.69,3.54,0.0412,32237,MidCap
+30,WF,Woori Financial Group Inc ADR,Financial,Banks - Regional,South Korea,7.16B,3.22,28.3,0.0202,31110,MidCap
