@@ -133,3 +133,56 @@ No.,Ticker,Company,Sector,Industry,Country,Market Cap,P/E,Price,Change,Volume,Ca
 28,CIB,Bancolombia S.A. ADR,Financial,Banks - Regional,Colombia,3.07B,8.7,27.12,0.0211,191258,MidCap,11/5/2023
 29,CIG-C,Cia Energetica DE Minas Gerais - Cemig ADR,Utilities,Utilities - Diversified,Brazil,2.60B,7.69,3.54,0.0412,32237,MidCap,11/5/2023
 30,WF,Woori Financial Group Inc ADR,Financial,Banks - Regional,South Korea,7.16B,3.22,28.3,0.0202,31110,MidCap,11/5/2023
+1,BAP,Credicorp Ltd,Financial,Banks - Regional,Peru,11.92B,8.82,149.93,-0.0065,206290,LargeCap,12/29/2023
+2,BBD,Banco Bradesco S.A. ADR,Financial,Banks - Regional,Brazil,18.59B,13.81,3.5,-0.0113,4392948,LargeCap,12/29/2023
+3,BBVA,Banco Bilbao Vizcaya Argentaria. ADR,Financial,Banks - Diversified,Spain,54.28B,6.79,9.11,0.01,773997,LargeCap,12/29/2023
+4,BNS,Bank Of Nova Scotia,Financial,Banks - Diversified,Canada,59.11B,11.33,48.69,0.0027,4852625,LargeCap,12/29/2023
+5,BTI,British American Tobacco Plc ADR,Consumer Defensive,Tobacco,United Kingdom,65.33B,6.32,29.29,0.0021,3642219,LargeCap,12/29/2023
+6,CM,Canadian Imperial Bank Of Commerce,Financial,Banks - Diversified,Canada,44.83B,12.61,48.14,0.0027,949832,LargeCap,12/29/2023
+7,CNA,CNA Financial Corp.,Financial,Insurance - Property & Casualty,USA,11.46B,10.61,42.31,0.0009,154533,LargeCap,12/29/2023
+8,E,Eni Spa ADR,Energy,Oil & Gas Integrated,Italy,53.56B,10.26,34.01,0.0053,182896,LargeCap,12/29/2023
+9,EC,Ecopetrol SA ADR,Energy,Oil & Gas Integrated,Colombia,24.51B,5.11,11.92,-0.0042,1237224,LargeCap,12/29/2023
+10,EQNR,Equinor ASA ADR,Energy,Oil & Gas Integrated,Norway,93.80B,5.71,31.64,0.0025,1451665,LargeCap,12/29/2023
+11,ET,Energy Transfer LP,Energy,Oil & Gas Midstream,USA,46.40B,13.02,13.8,0.0022,9368479,LargeCap,12/29/2023
+12,F,Ford Motor Co.,Consumer Cyclical,Auto Manufacturers,USA,48.80B,7.99,12.19,-0.0122,40262575,LargeCap,12/29/2023
+13,FANG,Diamondback Energy Inc,Energy,Oil & Gas E&P,USA,27.76B,8.79,155.08,-0.0016,1487180,LargeCap,12/29/2023
+14,HSBC,HSBC Holdings plc ADR,Financial,Banks - Diversified,United Kingdom,157.89B,5.9,40.54,0.0005,1015974,LargeCap,12/29/2023
+15,KB,KB Financial Group Inc ADR,Financial,Banks - Regional,South Korea,15.82B,4.67,41.37,-0.0126,85829,LargeCap,12/29/2023
+16,KEY,Keycorp,Financial,Banks - Regional,USA,13.48B,11.68,14.4,-0.0096,8455555,LargeCap,12/29/2023
+17,NGG,National Grid Plc ADR,Utilities,Utilities - Regulated Electric,United Kingdom,50.15B,5.42,67.99,-0.0032,192009,LargeCap,12/29/2023
+18,NWG,NatWest Group Plc ADR,Financial,Banks - Regional,United Kingdom,25.01B,4.9,5.63,-0.0035,782878,LargeCap,12/29/2023
+19,PAA,Plains All American Pipeline LP,Energy,Oil & Gas Midstream,USA,10.62B,11.28,15.15,0.0026,1630217,LargeCap,12/29/2023
+20,PBR,Petroleo Brasileiro S.A. Petrobras ADR,Energy,Oil & Gas Integrated,Brazil,59.43B,3.88,15.97,-0.0037,4926881,LargeCap,12/29/2023
+21,PBR-A,Petroleo Brasileiro S.A. Petrobras ADR,Energy,Oil & Gas Integrated,Brazil,42.58B,3.71,15.28,-0.0033,1799634,LargeCap,12/29/2023
+22,SAN,Banco Santander S.A. ADR,Financial,Banks - Diversified,Spain,65.99B,6.58,4.14,0,2538320,LargeCap,12/29/2023
+23,SHG,Shinhan Financial Group Co. Ltd. ADR,Financial,Banks - Regional,South Korea,15.87B,5.27,30.78,-0.0109,60370,LargeCap,12/29/2023
+24,STLA,Stellantis N.V,Consumer Cyclical,Auto Manufacturers,Netherlands,72.29B,3.54,23.32,-0.0055,2060560,LargeCap,12/29/2023
+25,TEF,Telefonica S.A ADR,Communication Services,Telecom Services,Spain,22.21B,12.08,3.9,-0.0026,903032,LargeCap,12/29/2023
+26,TFC,Truist Financial Corporation,Financial,Banks - Regional,USA,49.24B,9.28,36.92,-0.0099,5954644,LargeCap,12/29/2023
+27,UMC,United Micro Electronics ADR,Technology,Semiconductors,Taiwan,21.20B,9.94,8.46,-0.0059,3556801,LargeCap,12/29/2023
+28,VALE,Vale S.A. ADR,Basic Materials,Other Industrial Metals & Mining,Brazil,68.24B,7.54,15.86,-0.0019,8670476,LargeCap,12/29/2023
+29,VOD,Vodafone Group plc ADR,Communication Services,Telecom Services,United Kingdom,23.56B,2.2,8.7,-0.0023,4376799,LargeCap,12/29/2023
+30,VZ,Verizon Communications Inc,Communication Services,Telecom Services,USA,158.49B,7.6,37.7,0.0056,16201967,LargeCap,12/29/2023
+31,WDS,Woodside Energy Group Ltd ADR,Energy,Oil & Gas E&P,Australia,40.00B,5.92,21.09,-0.0014,342857,LargeCap,12/29/2023
+1,AB,AllianceBernstein Holding Lp,Financial,Asset Management,USA,3.47B,13.98,31.03,-0.0108,491872,MidCap,12/29/2023
+2,ABR,Arbor Realty Trust Inc.,Real Estate,REIT - Mortgage,USA,2.86B,8.58,15.18,-0.0398,4739338,MidCap,12/29/2023
+3,ARLP,"Alliance Resource Partners, LP",Energy,Thermal Coal,USA,2.69B,3.81,21.18,0.0202,500058,MidCap,12/29/2023
+4,BTG,B2gold Corp,Basic Materials,Gold,Canada,4.11B,12.29,3.16,-0.0094,10276082,MidCap,12/29/2023
+5,CIB,Bancolombia S.A. ADR,Financial,Banks - Regional,Colombia,3.48B,9.88,30.77,0.0007,274746,MidCap,12/29/2023
+6,CIG,Cia Energetica DE Minas Gerais - Cemig ADR,Utilities,Utilities - Diversified,Brazil,3.40B,4.9,2.32,0.0043,2803269,MidCap,12/29/2023
+7,CIG-C,Cia Energetica DE Minas Gerais - Cemig ADR,Utilities,Utilities - Diversified,Brazil,2.32B,6.66,3.15,0.0096,37405,MidCap,12/29/2023
+8,CIVI,Civitas Resources Inc,Energy,Oil & Gas E&P,USA,6.41B,7.58,68.38,-0.0161,921253,MidCap,12/29/2023
+9,CMA,"Comerica, Inc.",Financial,Banks - Regional,USA,7.36B,6.31,55.81,-0.0134,1354435,MidCap,12/29/2023
+10,COLB,"Columbia Banking System, Inc.",Financial,Banks - Regional,USA,5.56B,12.83,26.68,-0.0159,1189318,MidCap,12/29/2023
+11,FIBK,First Interstate BancSystem Inc.,Financial,Banks - Regional,USA,3.23B,11.35,30.75,-0.0219,499971,MidCap,12/29/2023
+12,GBDC,"Golub Capital BDC, Inc.",Financial,Asset Management,USA,2.55B,9.93,15.1,-0.0137,787930,MidCap,12/29/2023
+13,GGB,Gerdau S.A. ADR,Basic Materials,Steel,Brazil,5.57B,5.32,4.85,-0.0102,2981134,MidCap,12/29/2023
+14,HTGC,Hercules Capital Inc,Financial,Asset Management,USA,2.52B,8.35,16.67,-0.0136,803212,MidCap,12/29/2023
+15,ICL,ICL Group Ltd.,Basic Materials,Agricultural Inputs,Israel,6.46B,7.1,5.01,0.002,569667,MidCap,12/29/2023
+16,KT,KT Corporation ADR,Communication Services,Telecom Services,South Korea,6.62B,7.44,13.44,-0.0096,856841,MidCap,12/29/2023
+17,MAIN,Main Street Capital Corporation,Financial,Asset Management,USA,3.62B,8.77,43.23,-0.013,468997,MidCap,12/29/2023
+18,NYCB,New York Community Bancorp Inc.,Financial,Banks - Regional,USA,7.39B,2.56,10.23,-0.0182,5199797,MidCap,12/29/2023
+19,OMF,OneMain Holdings Inc,Financial,Credit Services,USA,5.90B,9.08,49.2,-0.013,519699,MidCap,12/29/2023
+20,RITM,Rithm Capital Corporation,Real Estate,REIT - Mortgage,USA,5.16B,7.35,10.68,-0.0139,3132789,MidCap,12/29/2023
+21,SKM,SK Telecom Co Ltd ADR,Communication Services,Telecom Services,South Korea,8.34B,9.9,21.4,-0.0019,271954,MidCap,12/29/2023
+22,WF,Woori Financial Group Inc ADR,Financial,Banks - Regional,South Korea,7.44B,3.45,30.22,-0.0134,25640,MidCap,12/29/2023
