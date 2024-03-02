@@ -61,17 +61,18 @@ Value_Stocks <-  hs_stock_2 %>%
       Mkt_Cap   >  500  &
       List_year <  2014 & 
       Profit    == "1"  & 
-      #Div     == "???" & 
+      # #Div     == "???" & 
       Growth    >  0.33 & 
       PB        <  1.5  & 
-      PE20_22   <  15 ) 
+      PE20_22   <  15 
+      ) 
 
 # Mid Cap
 Value_Stocks2 <-  hs_stock_2 %>%
   filter(
     Mkt_Cap   >  200  & Mkt_Cap < 500 &
     List_year <  2014 & 
-    Profit    == "1"  & 
+    #Profit    == "1"  & 
     # Div=="???"      & 
     Growth    > 0.33  & 
     PB        < 1.5   & 
