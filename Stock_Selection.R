@@ -16,7 +16,7 @@ Sys.setlocale(category = "LC_ALL", locale = "Chinese") # 将本地语言默认�
 
 library(readxl)
 hs_stock <- read.csv(
-  "D:/0_0 Careers/2020/2004_Value_Stocks/Chinese_Stock_Data/value_temp_190602-2024_0127.csv")
+  "D:/0_0 Careers/2020/2004_Value_Stocks/Chinese_Stock_Data/value_temp_190602-2024_0301.csv")
 
 # names(hs_stock)
 # dim(hs_stock)
@@ -61,7 +61,7 @@ Value_Stocks <-  hs_stock_2 %>%
       Mkt_Cap   >  500  &
       List_year <  2014 & 
       Profit    == "1"  & 
-      # Div     == "???" & 
+      #Div     == "???" & 
       Growth    >  0.33 & 
       PB        <  1.5  & 
       PE20_22   <  15 ) 
@@ -72,7 +72,7 @@ Value_Stocks2 <-  hs_stock_2 %>%
     Mkt_Cap   >  200  & Mkt_Cap < 500 &
     List_year <  2014 & 
     Profit    == "1"  & 
-    # Div=="???" & 
+    # Div=="???"      & 
     Growth    > 0.33  & 
     PB        < 1.5   & 
     PE20_22   < 15 ) 
@@ -81,12 +81,12 @@ Value_Stocks2 <-  hs_stock_2 %>%
 Value_Stocks3 <-  hs_stock_2 %>%
   filter(
     Mkt_Cap>100 & Mkt_Cap < 200 &
-      List_year < 2014 & 
-      Profit=="1" & 
-      # Div=="???" & 
-      Growth > 0.33 & 
-      PB<1.5 & 
-      PE20_22 < 15 ) 
+      List_year <  2014 & 
+      Profit    == "1"  & 
+      # Div     =="???" & 
+      Growth    > 0.33 & 
+      PB        < 1.5  & 
+      PE20_22   < 15) 
 
 options(digits = 4)  
 
@@ -114,13 +114,13 @@ large_cap2 <- large_cap %>%
 #install.packages('writexl')
 
 library("writexl")
-write_xlsx(large_cap2,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\240127_large_cap.xlsx")
-write_xlsx(mid_cap   ,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\240127_mid_cap.xlsx")
-write_xlsx(small_cap ,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\240127_small_cap.xlsx")
+write_xlsx(large_cap2,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\240301_large_cap.xlsx")
+write_xlsx(mid_cap   ,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\240301_mid_cap.xlsx")
+write_xlsx(small_cap ,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\240301_small_cap.xlsx")
 
-write.csv(large_cap2,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\240127_large_cap.csv")
-write.csv(mid_cap   ,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\240127_mid_cap.csv")
-write.csv(small_cap ,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\240127_small_cap.csv")
+write.csv(large_cap2,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\240301_large_cap.csv")
+write.csv(mid_cap   ,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\240301_mid_cap.csv")
+write.csv(small_cap ,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\240301_small_cap.csv")
 
 
 
