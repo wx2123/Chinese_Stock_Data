@@ -16,7 +16,7 @@ Sys.setlocale(category = "LC_ALL", locale = "Chinese") # 将本地语言默认�
 
 library(readxl)
 hs_stock <- read.csv(
-  "D:/0_0 Careers/2020/2004_Value_Stocks/Chinese_Stock_Data/value_temp_190602-2024_0301.csv")
+  "D:/0_0 Careers/2020/2004_Value_Stocks/Chinese_Stock_Data/value_temp_190602-2024_0330.csv")
 
 # names(hs_stock)
 # dim(hs_stock)
@@ -115,13 +115,13 @@ large_cap2 <- large_cap %>%
 #install.packages('writexl')
 
 library("writexl")
-write_xlsx(large_cap2,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\240301_large_cap.xlsx")
-write_xlsx(mid_cap   ,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\240301_mid_cap.xlsx")
-write_xlsx(small_cap ,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\240301_small_cap.xlsx")
+write_xlsx(large_cap2,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\240330_large_cap.xlsx")
+write_xlsx(mid_cap   ,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\240330_mid_cap.xlsx")
+write_xlsx(small_cap ,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\240330_small_cap.xlsx")
 
-write.csv(large_cap2,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\240301_large_cap.csv")
-write.csv(mid_cap   ,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\240301_mid_cap.csv")
-write.csv(small_cap ,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\240301_small_cap.csv")
+write.csv(large_cap2,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\240330_large_cap.csv")
+write.csv(mid_cap   ,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\240330_mid_cap.csv")
+write.csv(small_cap ,"D:\\0_0 Careers\\2020\\2004_Value_Stocks\\Chinese_Stock_Data\\240330_small_cap.csv")
 
 
 
